@@ -53,7 +53,6 @@ export const TokenTable: React.FC<Props> = ({ data, loading }: Props) => {
           <Cell dataKey="pronunciation" />
         </Column>
       </Table>
-      <p>{JSON.stringify(tableRef)}</p>
     </Panel>
   );
 };
